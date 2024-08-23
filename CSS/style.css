@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(153, 139, 114);
+}
+
+.homepage-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: wheat;
+}
+
+.nav-container {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 173, 20);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-container {
+    width: 250px;
+    height: inherit;
+    margin-left: 75px;
+    background-color: violet;
+
+    background-image: url(../IMAGES/ryparis-logo.png);
+}
+
+.nav-links-container {
+    width: 500px;
+    height: inherit;
+    margin-right: 100px;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul li {
+    padding-left: 20px;
+    list-style-type: none;
+    display: inline;
+    font-size: 15px;    
+    font-weight: 600;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
