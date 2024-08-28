@@ -9,18 +9,18 @@
 body {
     width: 100%;
     height: 100%;
-    background-color: rgb(153, 139, 114);
 }
 
 .homepage-container {
     width: 100vw;
     height: 100vh;
-    background-color: wheat;
+
+    display: relative;
 }
 
 .nav-container {
     width: 100%;
-    height: 90px;
+    height: 10%;
     background-color: rgb(255, 173, 20);
 
     display: flex;
@@ -31,18 +31,23 @@ body {
 
 .nav-logo-container {
     width: 250px;
-    height: inherit;
+    height: 100%;
     margin-left: 75px;
-    background-color: violet;
+    /* background-color: violet; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     background-image: url(../IMAGES/ryparis-logo.png);
+    background-repeat: no-repeat;
 }
 
 .nav-links-container {
-    width: 500px;
-    height: inherit;
+    width: 50%;
+    height: 100%;
     margin-right: 100px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 
     display: flex;
     justify-content: flex-end;
@@ -53,7 +58,7 @@ ul li {
     padding-left: 20px;
     list-style-type: none;
     display: inline;
-    font-size: 15px;    
+    font-size: 20px;    
     font-weight: 600;
 }
 
@@ -61,3 +66,160 @@ li a {
     text-decoration: none;
     color: black;
 }
+
+.homepage-image-container {
+    width: 100%;
+    height: 75%;
+    /* height: 60%; */
+    position: relative;
+
+    margin-top: 5px;
+    background-color: lightgreen;
+
+    background-image: url(../IMAGES/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage-title {
+    width: 465px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 750;
+    font-size: 30px;
+
+    display: relative;
+}
+
+.homepage-title h1 {
+    padding: 0 30px;
+    
+    position: absolute;
+    left: 23%;
+    bottom: 150px;
+    background-color: whitesmoke;
+}
+
+.everyday-categories-container {
+    width: 100%;
+    height: 60vh;
+    /* background-color: black; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.everyday-content-wrapper {
+    width: 85%;
+    height: 82%;
+    /* background-color: blue; */
+}
+
+.everyday-title {
+    width: 100%;
+    height: 15%;
+    /* background-color: pink; */
+}
+
+.everyday-description {
+    width: 100%;
+    height: 18%;
+    /* background-color: rgb(255, 123, 145); */
+}
+
+.everyday-images {
+    width: 100%;
+    height: 69%;
+    /* background-color: rgb(255, 0, 43); */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.everyday-title-style {
+    font-size: 35px;
+    font-weight: 850;
+}
+
+.everyday-discription-style {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.everyday-image-1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMAGES/breakfast-ideas.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.everyday-image-2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMAGES/vegetarian-ideas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.everyday-image-3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(../IMAGES/cold-weather-dinners.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+
+.everyday-subtitle {
+    width: 100%;
+    height: 30px;
+    padding: 10px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.everyday-item {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.healthy-recipes-container {
+    width: 100%;
+    height: 50vh;
+    background-color: yellow;
+}
+
+@media screen and (max-width: 1800px) {
+    .nav-container {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 173, 20);
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .homepage-image-container {
+        width: 100%;
+        height: 87%;
+        margin-top: 5px;
+        background-color: purple;
+
+        display: relative;
+    
+    }
+  }
