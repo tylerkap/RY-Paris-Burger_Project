@@ -12,15 +12,15 @@ body {
 }
 
 .homepage-container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 90vh;
 
     display: relative;
 }
 
 .nav-container {
     width: 100%;
-    height: 10%;
+    height: 17%;
     background-color: rgb(255, 173, 20);
 
     display: flex;
@@ -30,10 +30,9 @@ body {
 }
 
 .nav-logo-container {
-    width: 250px;
+    width: 310px;
     height: 100%;
     margin-left: 75px;
-    /* background-color: violet; */
 
     display: flex;
     align-items: center;
@@ -41,13 +40,13 @@ body {
 
     background-image: url(../IMAGES/ryparis-logo.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .nav-links-container {
     width: 50%;
     height: 100%;
     margin-right: 100px;
-    /* background-color: lightblue; */
 
     display: flex;
     justify-content: flex-end;
@@ -55,11 +54,11 @@ body {
 }
 
 ul li {
-    padding-left: 20px;
+    padding-left: 25px;
     list-style-type: none;
     display: inline;
-    font-size: 20px;    
-    font-weight: 600;
+    font-size: 23px;    
+    font-weight: 500;
 }
 
 li a {
@@ -69,12 +68,10 @@ li a {
 
 .homepage-image-container {
     width: 100%;
-    height: 75%;
-    /* height: 60%; */
+    height: 80%;
     position: relative;
 
     margin-top: 5px;
-    background-color: lightgreen;
 
     background-image: url(../IMAGES/hero-image.jpg);
     background-repeat: no-repeat;
@@ -92,18 +89,21 @@ li a {
 }
 
 .homepage-title h1 {
-    padding: 0 30px;
+    padding: 5px 30px;
+    font-weight: 900;
+    font-size: 55px;
     
     position: absolute;
-    left: 23%;
-    bottom: 150px;
+    left: 21%;
+    bottom: 80px;
     background-color: whitesmoke;
 }
 
 .everyday-categories-container {
     width: 100%;
-    height: 65vh;
-    margin-bottom: 40px;
+    height: 75vh;
+
+    position: relative;
 
     display: flex;
     justify-content: center;
@@ -112,7 +112,10 @@ li a {
 
 .everyday-content-wrapper {
     width: 85%;
-    height: 82%;
+    height: 70%;
+
+    position: absolute;
+    top: 50px;
 }
 
 .everyday-title {
@@ -123,6 +126,7 @@ li a {
 .everyday-description {
     width: 100%;
     height: 20%;
+    padding-bottom: 50px;
 }
 
 .everyday-images {
@@ -135,12 +139,12 @@ li a {
 } 
 
 .everyday-title-style {
-    font-size: 35px;
+    font-size: 44px;
     font-weight: 850;
 }
 
 .everyday-discription-style {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 600;
 }
 
@@ -190,8 +194,10 @@ li a {
 
 .healthy-recipes-container {
     width: 100%;
-    height: 65vh;
-    background-color: rgb(185, 196, 224);
+    height: 67vh;
+    background-color: rgb(217, 228, 255);
+
+    padding-bottom: 10px;
 
     position: relative;
 
@@ -203,10 +209,10 @@ li a {
 
 .healthy-content-wrapper {
     width: 85%;
-    height: 70%;
+    height: 75%;
 
     position: absolute;
-    top: 50px;
+    top: 55px;
 }
 
 .healthy-title {
@@ -221,7 +227,7 @@ li a {
 
 .healthy-images {
     width: 100%;
-    height: 69%;
+    height: 62%;
 
     display: flex;
     flex-direction: row;
@@ -229,12 +235,12 @@ li a {
 } 
 
 .healthy-title-style {
-    font-size: 35px;
+    font-size: 44px;
     font-weight: 850;
 }
 
 .healthy-discription-style {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 600;
 }
 
@@ -283,7 +289,7 @@ li a {
 }
 
 .healthy-item {
-    width: 22%;
+    width: 23%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -293,7 +299,7 @@ li a {
 
 .whereto-container {
     width: 100%;
-    height: 80vh;
+    height: 95vh;
 
     margin-bottom: 100px;
 
@@ -310,22 +316,25 @@ li a {
     height: 70%;
 
     position: absolute;
-    top: 50px;
+    top: 60px;
 }
 
 .whereto-title {
     width: 100%;
-    height: 20%;
+    height: 15%;
 }
 
 .whereto-description {
     width: 100%;
     height: 20%;
+
+    margin-bottom: 50px;
 }
+
 
 .whereto-images {
     width: 100%;
-    height: 80%;
+    height: 65%;
 
     display: flex;
     flex-direction: row;
@@ -333,12 +342,12 @@ li a {
 } 
 
 .whereto-title-style {
-    font-size: 35px;
+    font-size: 44px;
     font-weight: 850;
 }
 
 .whereto-discription-style {
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 600;
 }
 
@@ -348,7 +357,7 @@ li a {
     background-image: url(../IMAGES/burger.jpg);
     background-size: cover;
     background-position: center;
-    border: 10px solid rgb(211, 211, 211);
+    border: 10px solid rgb(217, 228, 255);
 }
 
 .whereto-image-2 {
@@ -358,7 +367,7 @@ li a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border: 10px solid rgb(211, 211, 211);
+    border: 10px solid rgb(217, 228, 255);
 }
 
 .whereto-image-3 {
@@ -368,7 +377,7 @@ li a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border: 10px solid rgb(211, 211, 211);
+    border: 10px solid rgb(217, 228, 255);
 }
 
 
@@ -381,7 +390,7 @@ li a {
 }
 
 .whereto-item {
-    width: 28%;
+    width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -392,7 +401,7 @@ li a {
 
 .footer-container {
     width: 100%;
-    height: 10%;
+    height: 17%;
     background-color: rgb(255, 173, 20);
 
     display: flex;
@@ -405,6 +414,7 @@ li a {
     width: 250px;
     height: 100%;
     margin-left: 75px;
+    font-size: 24px;
     /* background-color: violet; */
 
     display: flex;
@@ -415,8 +425,8 @@ li a {
 .footer-links-container {
     width: 50%;
     height: 100%;
-    margin-right: 100px;
-    /* background-color: lightblue; */
+    margin-right: 150px;
+    background-color: lightblue;
 
     display: flex;
     justify-content: flex-end;
@@ -428,7 +438,7 @@ li a {
 }
 
 
-@media screen and (max-width: 1800px) {
+/* @media screen and (max-width: 1800px) {
     .nav-container {
         width: 100%;
         height: 100px;
@@ -449,4 +459,4 @@ li a {
         display: relative;
     
     }
-  }
+  } */
